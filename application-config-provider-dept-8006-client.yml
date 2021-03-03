@@ -32,7 +32,7 @@ eureka:
     instance-id: provider-8006 # Eureka界面上的服务名称对应的STATUS地址
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8762/eureka/
 ---
 server:
   port: 8001
